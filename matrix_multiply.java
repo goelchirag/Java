@@ -15,9 +15,11 @@ class matrix {
 
 	void display() {
 		int i, j;
-		for (i = 0; i < 3; i++)
+		for (i = 0; i < 3; i++) {
 			for (j = 0; j < 3; j++)
-				System.out.println(a[i][j]);
+				System.out.print(a[i][j] + " ");
+			System.out.println(" ");
+		}
 	}
 
 	int index(int x, int y) {
